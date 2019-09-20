@@ -1,0 +1,12 @@
+{
+  "name": "nx/angular",
+  "version": "0.1",
+  "extends": ["@schematics/angular", "@nrwl/workspace"],
+  "schematics": {
+    "blah": {
+      "factory": "./blah",
+      "schema": "./blah/schema.json",
+      "description": "Add an upgrade module"
+    }
+  }
+}
