@@ -1,8 +1,9 @@
+@import 'variables';
+
 :host {
   display: block;
   position: relative;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   white-space: normal;
 
   .field-title {
@@ -12,6 +13,11 @@
     display: inline-block;
     font-weight: 600;
     user-select: text;
+    line-height: 1.4rem;
+  }
+
+  .deprecated-warning {
+    color: $primary-text-color;
   }
 
   .setting-item-value {
